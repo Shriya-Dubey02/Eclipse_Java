@@ -10,5 +10,11 @@ public class Employee1 {
 		this.empId=empId;
 		this.empName=empName;
 	}
+	
+	// static method
+	static void changeCeo(String ceoName)
+	{
+		ceo=ceoName;
+	}
 
 }
