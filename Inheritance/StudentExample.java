@@ -3,7 +3,9 @@ package Inheritance;
 public class StudentExample {
 	public static void main(String args[])
 	{
-		Student obj1=new Student(int rollNo,String name,int marks);
+		SportStudent obj1= new SportStudent(1,"Nisha",90,5,"Kho-kho");
+		SportStudent obj2= new SportStudent(2,"Shriya",80,15,"Basketball");
+		
 	}
 
 }
