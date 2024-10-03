@@ -18,7 +18,7 @@ class Business {
 	
 	 
 		
-	Business weekend =new Business()
+	BusinessLogic weekend =new BusinessLogic()
 			{
 		void coupons(){
 			System.out.println("Weekend20");

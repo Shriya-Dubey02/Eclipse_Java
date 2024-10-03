@@ -30,4 +30,4 @@ public class Pattern3eg {
 		obj1.squareframe(10);
 	}
 
-}
+}I
