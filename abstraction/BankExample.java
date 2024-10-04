@@ -3,7 +3,7 @@ package abstraction;
 public class BankExample {
 	public static void main(String[] args) {
 		
-		// Parent can hold chils's object
+		// Parent can hold child's object
 		// here bank is holding SBI's object
 		
 		Bank sb= new ICICI();
