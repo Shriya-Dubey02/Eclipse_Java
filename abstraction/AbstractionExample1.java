@@ -42,7 +42,7 @@ public class AbstractionExample1 {
 		new AC().start();
 		new TV().stop();
 		new AC().stop();
-		
+		// Anonymous Inner class
 		Electronics electr=new Electronics()
 		{
 			void start()

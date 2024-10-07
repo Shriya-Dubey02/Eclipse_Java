@@ -7,5 +7,6 @@ public class ParttimeEmployee extends Employee {
 	{
 		super(id,name,monthlySalary);
 		this.bonus=bonus;
+		System.out.println(this.id+" "+this.name+" "+this.monthlySalary+" "+this.bonus);
 	}
 }

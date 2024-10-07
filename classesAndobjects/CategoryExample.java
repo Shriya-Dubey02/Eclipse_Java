@@ -5,7 +5,7 @@ public class CategoryExample {
 		
 		// This will store values in Constructor
 		Category c1= new Category(1,"Electronics");
-		new Category();
+		// new Category();
 		
 		System.out.println(c1.categoryId);
 		System.out.println(c1.categoryName);

@@ -12,6 +12,13 @@ class Weekdays extends BusinessLogic
 	}
 }
 
+class Weekends extends BusinessLogic
+{
+	void coupons()
+	{
+		System.out.println("Weekends20");
+	}
+}
 class Business {
 	public static void main(String[] args) {
 		
