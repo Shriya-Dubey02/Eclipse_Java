@@ -8,6 +8,7 @@ public class Example6 {
 		try
 		{
 			new FileInputStream("abc.txt");
+			// it is a class in java used to take input and output
 		}
 		catch(FileNotFoundException e)
 		{
