@@ -10,7 +10,7 @@ public class Example4 {
 			public void accept(Integer i)
 			{
 				System.out.println(i*i);
-			}
+			}    
 		};
 		square.accept(8);
 	}
