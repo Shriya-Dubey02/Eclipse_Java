@@ -35,8 +35,6 @@ public class ListExample5 {
 		products.removeIf(price);
 		System.out.println(products);
 		
-		Collections.sort();
-		
 		
 	}
 

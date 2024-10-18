@@ -1,33 +1,29 @@
 package PracticeExamples;
 import java.util.*;
-public class SimpleEg{
+
+class PracticeExamples{
+	
+public static int printHello()
+{
+	System.out.println("Hii");
+	return 14;
+}
+public static void swap(int a,int b)
+{
+	int temp=a;
+	int a=b;
+	int b=temp;
+}
+
+
 
 	public static void main(String[] args) {
-		// new SimpleEg();
-		// System.out.println(new SimpleEg().printHello());
-		Scanner sc= new Scanner(System.in);
-		SimpleProgram s1=new SimpleProgram();
-		s1.printHello();
-		s1.printHello();
-		
-	
-		
+		System.out.println(printHello());
+		int a=5;
+		int b=7;
+		swap(a,b);
+		System.out.println(a);
+		System.out.println(b);
 	}
-}
+	}
 
-class SimpleProgram {
-
-void printHello() {
-	System.out.println("Hello World");
-	
-}
-
-public int add()
-{
-	int a= sc.nextInt();
-	int b=sc.nextInt();
-	int sum= a+b;
-}
-
-
-}

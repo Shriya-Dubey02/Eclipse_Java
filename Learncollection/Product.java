@@ -1,6 +1,8 @@
 package Learncollection;
 
-public class Product {
+// used for sorting
+// public class Product implements Comparable<Product> {
+public class Product{
 	
 	private int id;
 	private String name;
@@ -42,6 +44,21 @@ public class Product {
 	public String toString() {
 		return "Product [id=" + id + ", name=" + name + ", price=" + price + "]";
 	}
+}
+	
+	// current object- next object
+	// @Override
+//	public int compareTo(Product o) {
+//		// TODO Auto-generated method stub
+//		return this.name.compareTo(o.name);
+		
+		// id is getting sorted here
+		// for string comparison use compareTo method
+		// compareTo returns int , we cannot use startsWith
+		// comparable can only work with one value
+
+	
+	
 	
 	
 	
@@ -49,4 +66,4 @@ public class Product {
 	
 	
 
-}
+
