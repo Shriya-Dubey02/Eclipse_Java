@@ -22,6 +22,7 @@ public class SetExample1 {
 		// converted List to Hashset to remove duplicate values
 		HashSet<Integer> Set= new HashSet<Integer>(list);
 		System.out.println(Set);
+		// This is a set class
 	}
 
 }
