@@ -12,9 +12,10 @@ public class DecToBinary {
 		while(n>0)
 		{
 			int rem= n%2;
-			System.out.println(rem * (int)Math.pow(10, pow));
+			System.out.println("**"+(rem * (int)Math.pow(10, pow)));
 			binNum=binNum + (rem * (int)Math.pow(10, pow));
-			// System.out.println(binNum);
+			System.out.println(binNum);
+			
 			pow++;
 			n=n/2;
 			
