@@ -22,6 +22,20 @@ public class Apna_coll_eg1 {
       }
     
 	}
+	public static void arr(int marks[])
+	{
+		for(int i=0;i<=marks.length-1;i++)
+		{
+			marks[i]= marks[i]+1;
+			System.out.println(marks[i]);
+		}
+	}
+	
+	public static void main(String[] args) {
+		
+		int marks[]= {23,12,14};
+		arr(marks);
+	}
 	
 
 
