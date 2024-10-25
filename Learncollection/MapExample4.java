@@ -1,6 +1,8 @@
 package Learncollection;
 
 import java.util.TreeMap;
+import java.util.function.Consumer;
+import java.util.function.Predicate;
 
 
 public class MapExample4 {
@@ -52,6 +54,10 @@ public class MapExample4 {
 	System.out.println(map);
 	System.out.println(map.pollLastEntry());// remove
 	System.out.println(map);
+	
+	Predicate<T>
+	Function<T>
+	Consumer<T>
 
 	}
 
