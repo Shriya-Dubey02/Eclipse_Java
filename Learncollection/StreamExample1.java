@@ -22,7 +22,7 @@ public class StreamExample1 {
 		
 		Stream<Integer> stream = list.stream();
 		//ForEach   Map   Filter   methods
-		// Stream creates a copy and operations and performed on it
+		// Stream creates a copy and operations are performed on it
 		
 		Consumer<Integer> c=(i)->System.out.println(i);
 		stream.forEach(c);
