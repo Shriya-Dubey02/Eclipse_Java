@@ -31,9 +31,10 @@ public class Arrays_ApnaCollege {
 	public static void main(String[] args) {
 		
 		int numbers[]= {2,4,6,8,10,12,14};
-		int key=90;
+		int key=14;
 	
 		System.out.println("Index for key is: "+binarySearch(numbers, key));
+		// 31
 	}
 }
 
