@@ -1,4 +1,4 @@
-package com.learn.springcore.bean;
+ dpackage com.learn.springcore.bean;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
