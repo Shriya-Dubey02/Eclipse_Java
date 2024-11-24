@@ -7,7 +7,7 @@ import java.util.function.Predicate;
 
 public class ListExample5 {
 	public static void main(String[] args) {
-		
+		// linked list example 
 		LinkedList<String> names= new LinkedList<String>();
 		
 		names.add("Shriya");
